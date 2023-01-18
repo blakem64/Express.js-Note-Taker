@@ -34,6 +34,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
+// fetch method is sending the server a request / post
   fetch('/api/notes', {
     method: 'POST',
     headers: {
